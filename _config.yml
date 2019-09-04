@@ -1,0 +1,8 @@
+remote_theme: jekyll/minima
+
+title: Matthew McPherrin's website
+
+show_excerpts: true
+
+exclude:
+ - README.md
