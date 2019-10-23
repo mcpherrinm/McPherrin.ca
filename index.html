@@ -1,0 +1,13 @@
+---
+layout: page
+---
+
+<ul class=posts>
+{% for post in site.posts %}
+<li>
+	<span class=date>{{ post.date | date: "%F" }}</span>
+	<h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+	{{ post.excerpt }}
+</li>
+{% endfor %}
+</ul>

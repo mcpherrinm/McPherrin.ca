@@ -1,0 +1,35 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #d9e6fa;
+}
+
+div#main {
+  height: 100%;
+  max-width: 32em;
+  font-size: 16pt;
+  margin: 3em auto;
+  padding: 3em;
+  background-color: white;
+}
+
+h1 {
+  margin: 0;
+}
+
+span.date {
+  float: right;
+}
+
+ul.posts {
+  padding: 0;
+  list-style-type: none;
+}
+
+ul.posts h3 a {
+  text-decoration: none;
+}
+
+ul.posts h3 a:hover {
+  text-decoration: underline;
+}
