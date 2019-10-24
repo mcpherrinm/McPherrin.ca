@@ -7,7 +7,7 @@ html, body {
 div#main {
   height: 100%;
   max-width: 32em;
-  font-size: 16pt;
+  font-size: 1.5em;
   margin: 3em auto;
   padding: 3em;
   background-color: white;
@@ -26,10 +26,14 @@ ul.posts {
   list-style-type: none;
 }
 
-ul.posts h3 a {
+a {
   text-decoration: none;
 }
 
-ul.posts h3 a:hover {
+a:hover {
   text-decoration: underline;
+}
+
+h1 > a {
+  color: black;
 }
