@@ -13,7 +13,7 @@ div#main {
   background-color: white;
 }
 
-h1 {
+h2, h3 {
   margin: 0;
 }
 
@@ -26,6 +26,14 @@ ul.posts {
   list-style-type: none;
 }
 
+ul.posts p {
+  margin: 0;
+}
+
+ul.posts li {
+  margin-bottom: 1em;
+}
+
 a {
   text-decoration: none;
 }
@@ -36,4 +44,9 @@ a:hover {
 
 h1 > a {
   color: black;
+}
+
+a.more {
+  font-size: 2em;
+  line-height: 0.1em;
 }

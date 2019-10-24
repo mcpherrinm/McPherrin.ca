@@ -8,6 +8,7 @@ layout: page
 	<span class=date>{{ post.date | date: "%F" }}</span>
 	<h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
 	{{ post.excerpt }}
+	<a class=more href="{{ post.url | relative_url }}">...</a>
 </li>
 {% endfor %}
 </ul>
