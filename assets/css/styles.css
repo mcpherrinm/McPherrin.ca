@@ -13,7 +13,7 @@ div#top {
   margin: 0;
   background-color: black;
   color: white;
-  padding: 1em 0;
+  padding: 2em 0;
 }
 
 div#drop {
@@ -30,11 +30,15 @@ div#main {
   padding: 3em;
 }
 
-h1 > a {
+div#top a {
   color: white; /* links are blue/purple by default */
 }
 
-h2, h3 {
+div#topnav {
+  float: right;
+}
+
+h1, h2, h3 {
   margin: 0;
 }
 
