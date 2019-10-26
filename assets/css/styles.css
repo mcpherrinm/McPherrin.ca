@@ -1,16 +1,37 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #d9e6fa;
+}
+
+body {
+  font-size: 1.5em; /* Larger base font size */
+  line-height: 1.25em;
+  background-color: #d9e6fa; /* Blue background */
+}
+
+div#top {
+  margin: 0;
+  background-color: black;
+  color: white;
+  padding: 1em 0;
+}
+
+div#drop {
+  margin: 3em auto -3em; /* centered with drop */
+  background-color: black;
+  max-width: 38em; /* main width plus padding */
+  padding: 0 3em 3em;
 }
 
 div#main {
-  height: 100%;
-  max-width: 32em;
-  font-size: 1.5em;
-  margin: 3em auto;
-  padding: 3em;
+  margin: 0 auto 3em; /* centered */
   background-color: white;
+  max-width: 32em; /* Cap width of page for easy reading */
+  padding: 3em;
+}
+
+h1 > a {
+  color: white; /* links are blue/purple by default */
 }
 
 h2, h3 {
@@ -40,10 +61,6 @@ a {
 
 a:hover {
   text-decoration: underline;
-}
-
-h1 > a {
-  color: black;
 }
 
 a.more {
