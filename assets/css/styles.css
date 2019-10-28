@@ -30,6 +30,14 @@ div#main {
   padding: 3em;
 }
 
+/* Decrease padding on smaller screens */
+@media(max-width: 48em) {
+  div#main, div#drop {
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+  }
+}
+
 div#top a {
   color: white; /* links are blue/purple by default */
 }
