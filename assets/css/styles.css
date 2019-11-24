@@ -1,24 +1,27 @@
 html, body {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
   font-size: 1.5em; /* Larger base font size */
-  line-height: 1.25em;
   background-color: #d9e6fa; /* Blue background */
 }
 
 div#top {
   margin: 0;
-  background-color: black;
-  color: white;
   padding: 2em 0;
 }
 
+div#topnav {
+  float: right;
+}
+
 div#drop {
-  margin: 3em auto -3em; /* centered with drop */
+  color: white;
   background-color: black;
+  margin: 3em auto -3em; /* centered with drop */
   max-width: 38em; /* main width plus padding */
   padding: 0 3em 3em;
 }
@@ -28,13 +31,25 @@ div#main {
   background-color: white;
   max-width: 32em; /* Cap width of page for easy reading */
   padding: 3em;
+  line-height: 1.4em;
 }
 
 /* Decrease padding on smaller screens */
-@media(max-width: 48em) {
-  div#main, div#drop {
-    padding-left: 0.25em;
-    padding-right: 0.25em;
+@media(max-width: 58em) {
+  div#main {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+  body {
+    background: white;
+  }
+  div#drop {
+    margin: 0 auto;
+    padding: 0 0.5em;
+  }
+  div#topnav {
+    float: none;
+    margin-bottom: 1em;
   }
 }
 
@@ -42,12 +57,10 @@ div#top a {
   color: white; /* links are blue/purple by default */
 }
 
-div#topnav {
-  float: right;
-}
-
 h1, h2, h3 {
   margin: 0;
+  font-family: Georgia, serif;
+  font-weight: normal;
 }
 
 span.date {
