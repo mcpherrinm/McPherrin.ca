@@ -31,7 +31,7 @@ div#main {
   background-color: white;
   max-width: 32em; /* Cap width of page for easy reading */
   padding: 3em;
-  line-height: 1.4em;
+  line-height: 1.5;
 }
 
 /* Decrease padding on smaller screens */
