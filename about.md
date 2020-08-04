@@ -2,17 +2,9 @@
 layout: page
 ---
 
-Hello!  I'm a Canadian currently living in San Francisco.
-
 Professionally, I'm interested in information security, systems programming,
-cryptography, networking, and more.
-
-I currently work for [Square](https://squareup.com) in the Information Security
-organization.
-Prior to that I worked for [Arista Networks](https://www.arista.com) as a
-software engineer.  I have a degree from the University of Waterloo in Computer
-Science.  I interned at Mozilla, Amazon, Endeca, Performance Technologies,
-eSentire, and WeCreate.
+cryptography, networking, and more.  You can find my work history on
+[LinkedIn](https://linkedin.com/in/mcpherrinm).
 
 If you'd like to contact me, you can do so by email.  Use my first name at this
 domain name as the address.
