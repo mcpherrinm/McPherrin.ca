@@ -1,5 +1,6 @@
 ---
 layout: page
+title: About Matthew McPherrin
 ---
 
 Professionally, I'm interested in information security, systems programming,
