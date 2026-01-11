@@ -18,3 +18,5 @@ domain name as the address.
 This website is [hosted on GitHub](https://github.com/mcpherrinm/McPherrin.ca).
 If you have any comments, corrections, or other feedback, please feel free to
 use GitHub issues or pull requests.
+
+Blog posts are available via a [feed]({{ '/feed.xml' | relative_url }}).

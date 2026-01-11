@@ -1,2 +1,10 @@
+title: Matthew McPherrin
+description: Matthew McPherrin's Website
+url: "https://mcpherrin.ca"
+author: Matthew McPherrin
+
 exclude:
  - README.md
+
+plugins:
+  - jekyll-feed
