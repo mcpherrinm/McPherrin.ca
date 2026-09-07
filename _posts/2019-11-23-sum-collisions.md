@@ -47,7 +47,7 @@ but it's illustrative of how a small checksum value cannot be cryptographically
 secure.
 
 ## The Algorithm
-There's no need blindly brute-force, as we can examine how `sum` works and be a
+There's no need to blindly brute-force, as we can examine how `sum` works and be a
 bit more intelligent about how we attack it.  The algorithm is very simple:
 Each byte is added into a 16 bit counter, and the counter is rotated right
 between each addition.  Or, in Python:
@@ -98,7 +98,7 @@ Because of the birthday paradox, and the fact that the set of hashes is only
 2^16, the attack takes only a split second on my computer to run.
 
 ## Character Sets
-The code for generating collisions takes a bytstring as input, and will only
+The code for generating collisions takes a bytestring as input, and will only
 use bytes from that.  This means you can, say, only feed it printable
 characters, only ascii lowercase characters, or whatever you need to not break
 the file you're trying to collide.

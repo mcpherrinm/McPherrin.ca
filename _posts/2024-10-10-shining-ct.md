@@ -9,4 +9,4 @@ Let’s Encrypt operates one of the largest Certificate Authorities, along with 
 discusses our experiences both as a submitter to CT as well as a log operator. We are excited about the new Sunlight log
 implementation, and will cover why we think Sunlight will be a good fit for us and for the larger CT ecosystem.
 
-Slides and recording are linked on https://transparency.dev/summit2024/letsencrypt.html
+Slides and recording are linked on <https://transparency.dev/summit2024/letsencrypt.html>
