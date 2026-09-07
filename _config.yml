@@ -1,10 +1,17 @@
 title: Matthew McPherrin
 description: Matthew McPherrin's Website
 url: "https://mcpherrin.ca"
+baseurl: ""
 author: Matthew McPherrin
+repository: mcpherrinm/McPherrin.ca
+lang: en_CA
 
 exclude:
- - README.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap

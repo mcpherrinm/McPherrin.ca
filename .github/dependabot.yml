@@ -3,7 +3,16 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
-      day: "monday"
+      interval: "monthly"
       time: "19:15"
       timezone: "UTC"
+    assignees:
+      - "mcpherrinm"
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+      time: "19:15"
+      timezone: "UTC"
+    assignees:
+      - "mcpherrinm"
