@@ -92,3 +92,14 @@ a.more {
   font-size: 2em;
   line-height: 0.1em;
 }
+
+div#main img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+pre {
+  font-size: 0.8em;
+  overflow-x: auto;
+}
