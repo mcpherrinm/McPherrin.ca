@@ -51,6 +51,9 @@ div#main {
     float: none;
     margin-bottom: 1em;
   }
+  div#top h1 {
+    font-size: min(2em, 10vw);
+  }
 }
 
 div#top a {
